@@ -21,7 +21,7 @@
 <section>
 	<h1
 		class="m-3 font-extrabold text-5xl scrolljs animate__animated animate__fadeOutRight"
-		data-range="1to10"
+		data-range="1to30"
 	>
 		Hey, there!
 	</h1>
