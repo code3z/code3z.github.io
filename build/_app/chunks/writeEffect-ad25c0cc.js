@@ -1,0 +1,1 @@
+import{s as i}from"./typingInterval-b805e32c.js";const a=async({currentNode:n,text:e},s)=>{n.classList.add("typing");for(let t=0;t<=e.length;t++)e[t]==="<"&&(t=e.indexOf(">",t)),n.innerHTML=e.slice(0,t),await i(s.interval);n.classList.replace("typing","finished-typing")};export{a as e};
