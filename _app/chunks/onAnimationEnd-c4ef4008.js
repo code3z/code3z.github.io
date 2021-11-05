@@ -1,0 +1,1 @@
+const n=(s,e)=>{new MutationObserver(r=>{r.forEach(t=>{const i=t.type==="attributes",a=!t.target.classList.contains("typing");i&&a&&e()})}).observe(s,{attributes:!0,childList:!0,subtree:!0})};export{n as t};
